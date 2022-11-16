@@ -1,5 +1,5 @@
 function isLetter(charCode) {
-	// write your code here
+	return charCode >= 65 && charCode <= 90 || charCode >= 97 && charCode <= 122;
 }
 
 module.exports = isLetter;
